@@ -12,8 +12,7 @@
     "prepare": "husky install",
     "clean": "rimraf .next dist",
     "export": "next export -o dist",
-    "build-prod": "run-s clean build export",
-    "postbuild": "netlify-plugin-nextjs"
+    "build-prod": "run-s clean build export"
   },
   "dependencies": {
     "@mapbox/rehype-prism": "^0.7.0",
