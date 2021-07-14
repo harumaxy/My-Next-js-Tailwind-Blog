@@ -12,10 +12,12 @@
     "prepare": "husky install",
     "clean": "rimraf .next dist",
     "export": "next export -o dist",
-    "build-prod": "run-s clean build export"
+    "build-prod": "run-s clean build export",
+    "postbuild": "netlify-plugin-nextjs"
   },
   "dependencies": {
     "@mapbox/rehype-prism": "^0.7.0",
+    "@netlify/plugin-nextjs": "^3.7.0",
     "@tailwindcss/forms": "^0.3.2",
     "@tailwindcss/typography": "^0.4.0",
     "autoprefixer": "^10.2.5",
@@ -59,6 +61,7 @@
     "husky": "^6.0.0",
     "inquirer": "^8.1.1",
     "lint-staged": "^11.0.0",
+    "netlify-cli": "^4.3.0",
     "next-remote-watch": "^1.0.0",
     "prettier": "2.2.1",
     "rehype": "11.0.0",

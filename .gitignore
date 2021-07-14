@@ -38,3 +38,6 @@ yarn-error.log*
 
 # added
 /.husky/*
+dist
+out_functions
+out_publish
