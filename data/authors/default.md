@@ -1,16 +1,28 @@
 ---
-name: Tails Azimuth
-avatar: /static/images/avatar.png
-occupation: Professor of Atmospheric Science
-company: Stanford University
-email: address@yoursite.com
-twitter: https://twitter.com/Twitter
+name: Max
+avatar: /static/images/avatar.jpeg
+occupation: Backend Developer
+company: SATT AI Lab.inc
+email: harumaxy@gmail.com
+twitter: https://twitter.com/maxy8653
 linkedin: https://www.linkedin.com
-github: https://github.com
+github: https://github.com/harumaxy
 ---
 
-Tails Azimuth is a professor of atmospheric sciences at the Stanford AI Lab. His research interests includes complexity modelling of tailwinds, headwinds and crosswinds.
+まだ雑魚です
 
-He leads the clean energy group which develops 3D air pollution-climate models, writes differential equation solvers, and manufactures titanium plated air ballons. In his free time he bakes raspberry pi.
+```md
+### 書ける言語
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate.
+- JavaScript / TypeScript
+- Go
+- Ocaml
+- GDScript
+
+### 書いたことある言語
+
+- Rust
+- Erlang / Elixir
+- Elm
+- Haskell
+```
