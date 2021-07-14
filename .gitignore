@@ -41,3 +41,5 @@ yarn-error.log*
 dist
 out_functions
 out_publish
+# Local Netlify folder
+.netlify
