@@ -1,3 +1,4 @@
+import { format } from 'date-fns'
 import siteMetadata from '@/data/siteMetadata.json'
 
 const formatDate = (date) => {
@@ -6,9 +7,9 @@ const formatDate = (date) => {
     month: 'long',
     day: 'numeric',
   }
-  const now = new Date(date).toLocaleDateString(siteMetadata.locale, options)
+  const now = new Date(date)
 
-  return now
+  return format(now, 'yyyy/M/d')
 }
 
 export default formatDate
