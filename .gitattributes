@@ -194,3 +194,4 @@ public/static/images/google.png filter=lfs diff=lfs merge=lfs -text
 public/static/images/logo.png filter=lfs diff=lfs merge=lfs -text
 public/static/images/twitter-card.png filter=lfs diff=lfs merge=lfs -text
 public/static/images/ocean.jpeg filter=lfs diff=lfs merge=lfs -text
+public/static/images/avatar.jpeg filter=lfs diff=lfs merge=lfs -text
